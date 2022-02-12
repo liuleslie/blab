@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'blab';
+    src: url('blab_feb12.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#blab{
+    font-family:'blab';
+}
+
+marquee {
+	font-size: 1.5em;
+}
+
+body {
+	font-size: 45px;
+	margin: .75em;
+	background-color: #c0c0c0; /* d3d3d3 */
+}
+
+::selection {
+	background-color: blue;
+	color: #c0c0c0;
+}
+
+/*main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+*/
+main div {
+	height: 50vh;
+}
+
+/*textbox centeredtext colorinverted*/
+
+.textbox {
+	color: black;
+	font-family: blab;
+	line-height: 0.75;
+	border: 1px solid black;
+	padding: 0 0.5em 0 0.5em;
+}
+.centeredtext {
+	text-align: center;
+}
+.colorinverted {
+	background-color: blue;
+	color: #c0c0c0;
+}
+.colorinverted::selection {
+	background-color: black;;
+}
+
+
+.big {
+	font-size: 3em;
+	line-height: 0.55;
+}
+
+.caps {
+	text-transform: uppercase;
+}
+
+
+
+
+
+.smalltext {
+	font-size: 0.75em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+/*@media (max-width: 800px) {
+	main {
+		grid-template-columns: 1fr;
+	}
+}*/
